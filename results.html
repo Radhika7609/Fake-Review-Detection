@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prediction Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <center>
+        <h1>Review: {{ review }}</h1>
+        
+        {# Conditionally display the prediction as per the result #}
+        <h2>Prediction: 
+            {% if prediction == 'CG' %}
+                Computer Generated
+            {% else %}
+                User Generated
+             
+            {% endif %}
+    </h2>
+        <a href="/">Check Another Review</a>
+    </center>
+</body>
+</html>

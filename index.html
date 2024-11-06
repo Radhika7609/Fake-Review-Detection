@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fake Review Detector</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <center>
+        <img src="https://apachebooster.com/blog/wp-content/uploads/2017/03/Fake-Review-730x410.png" height="300" width="200"/>
+    <h1>Fake Review Detector</h1>
+    <form action="/predict" method="post">
+        <textarea name="review" placeholder="Enter your review here..." required></textarea>
+        <button type="submit">Check Review</button>
+    </form>
+</center>
+</body>
+</html>
