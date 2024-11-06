@@ -1,4 +1,4 @@
-**To Execute the above code first you need to import all file**
+****To Execute the above code first you need to import all file**
 
 
 import Flask, render_template, request
@@ -9,7 +9,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.svm import SVC
 from sklearn.feature_extraction.text import TfidfVectorizer
 
-**EXECUTION**
+****EXECUTION**
 Execute app.py file to check the reviews
 
 **OUTPUT**
